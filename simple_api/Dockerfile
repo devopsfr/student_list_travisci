@@ -11,5 +11,4 @@ VOLUME [ "/data" ]
 #EXPOSE PORT
 EXPOSE 5000
 #RUN CODE
-#CMD [ "python", "./student_age.py" ]
-ENTRYPOINT python /student_age.py
+CMD [ "python", "./student_age.py" ]
